@@ -1,0 +1,17 @@
+<!DOCTYPE html> <!-- -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org"> <!-- -->
+<head>
+    <meta charset="UTF-8"> <!-- -->
+    <title>Usuarios</title> <!-- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- -->
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> <!-- -->
+<h1>Información de Usuarios</h1> <!-- -->
+<ul class="list-group"> <!-- -->
+    <li class="list-group-item">Nombre: <span th:text="${Usuario.nombre}"></span></li> <!-- -->
+    <li class="list-group-item">Cedula: <span th:text="${Usuario.cedula}"></span></li> <!-- -->
+    <li class="list-group-item">Correo: <span th:text="${Usuario.correo}"></span></li> <!-- -->
+</ul> <!-- -->
+</body>
+</html>
