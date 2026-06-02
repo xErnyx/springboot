@@ -10,6 +10,6 @@ public class SaludoRestController {
 
     @GetMapping("/saludo")
     public String holaMundo() {
-        return "{\"mensaje\": \"Hola desde Spring Boot!\"}";
+        return "{\"mensaje\": \"👋 ¡Hola desde Spring Boot! Bienvenido al sistema de gestión de usuarios 🚀\"}";
     }
 }

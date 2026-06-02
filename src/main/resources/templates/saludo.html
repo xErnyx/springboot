@@ -1,10 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Saludo Spring</title>
+    <title>Saludo Spring Boot</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #f6d365, #fda085);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+            text-align: center;
+            max-width: 420px;
+            width: 90%;
+        }
+        .emoji { font-size: 60px; margin-bottom: 20px; }
+        h1 {
+            font-size: 2rem;
+            color: #2d2d2d;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #777;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .pill {
+            display: inline-block;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #f6d365, #fda085);
+            color: white;
+            padding: 8px 22px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 12px rgba(253,160,133,0.4);
+        }
+    </style>
 </head>
 <body>
-<h1>Servidor Activo!!</h1>
+<div class="card">
+    <div class="emoji">🚀</div>
+    <h1>¡Servidor Activo!</h1>
+    <p>Spring Boot está corriendo correctamente.<br>El sistema está listo para recibir peticiones.</p>
+    <span class="pill">✅ Todo en orden</span>
+</div>
 </body>
 </html>

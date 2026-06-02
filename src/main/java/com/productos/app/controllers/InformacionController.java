@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class InformacionController {
-
     @GetMapping("/informacion")
     public String info(Model modelo) {
         modelo.addAttribute("Titulo", "Datos del Servidor");
